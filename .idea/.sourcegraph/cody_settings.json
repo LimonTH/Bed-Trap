@@ -1,0 +1,20 @@
+{
+  "serverEndpoint": "https://sourcegraph.com",
+  "autocomplete": {
+    "enabled": true,
+    "experimental": true
+  },
+  "chat": {
+    "enabled": true
+  },
+  "codeActions": {
+    "enabled": true
+  },
+  "inlineChat": {
+    "enabled": true
+  },
+  "experimentalFeatures": true,
+  "logging": {
+    "level": "info"
+  }
+}

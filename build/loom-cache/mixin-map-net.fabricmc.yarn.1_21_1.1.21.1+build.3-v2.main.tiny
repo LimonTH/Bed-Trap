@@ -1,0 +1,7 @@
+v1	named	intermediary
+FIELD	me/bedtrap/addon/mixins/HeldItemRenderMixin	F	prevEquipProgressMainHand	field_4053
+FIELD	me/bedtrap/addon/mixins/HeldItemRenderMixin	F	equipProgressMainHand	field_4043
+FIELD	me/bedtrap/addon/mixins/HeldItemRenderMixin	F	equipProgressOffHand	field_4052
+FIELD	me/bedtrap/addon/mixins/HeldItemRenderMixin	F	prevEquipProgressOffHand	field_4051
+FIELD	me/bedtrap/addon/mixins/HeldItemRenderMixin	Lnet/minecraft/item/ItemStack;	offHand	field_4048
+FIELD	me/bedtrap/addon/mixins/HeldItemRenderMixin	Lnet/minecraft/item/ItemStack;	mainHand	field_4047

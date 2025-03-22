@@ -1,0 +1,42 @@
+{
+  "mappings": {
+    "me/bedtrap/addon/mixins/AnvilBlockMixin": {
+      "getOutlineShape": "Lnet/minecraft/class_2199;method_9530(Lnet/minecraft/class_2680;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;Lnet/minecraft/class_3726;)Lnet/minecraft/class_265;"
+    },
+    "me/bedtrap/addon/mixins/HeldItemRenderMixin": {
+      "Lnet/minecraft/client/render/item/HeldItemRenderer;renderItem(Lnet/minecraft/entity/LivingEntity;Lnet/minecraft/item/ItemStack;Lnet/minecraft/client/render/model/json/ModelTransformationMode;ZLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;I)V": "Lnet/minecraft/class_759;method_3233(Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;Lnet/minecraft/class_811;ZLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V",
+      "renderFirstPersonItem": "Lnet/minecraft/class_759;method_3228(Lnet/minecraft/class_742;FFLnet/minecraft/class_1268;FLnet/minecraft/class_1799;FLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V",
+      "updateHeldItems": "Lnet/minecraft/class_759;method_3220()V"
+    },
+    "me/bedtrap/addon/mixins/MinecraftClientMixin": {
+      "Lnet/minecraft/client/network/ClientPlayerEntity;isUsingItem()Z": "Lnet/minecraft/class_746;method_6115()Z",
+      "Lnet/minecraft/client/network/ClientPlayerInteractionManager;isBreakingBlock()Z": "Lnet/minecraft/class_636;method_2923()Z",
+      "doItemUse": "Lnet/minecraft/class_310;method_1583()V",
+      "handleBlockBreaking": "Lnet/minecraft/class_310;method_1590(Z)V"
+    },
+    "me/bedtrap/addon/mixins/PlayerEntityMixin": {
+      "getMovementSpeed": "Lnet/minecraft/class_1657;method_6029()F"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "me/bedtrap/addon/mixins/AnvilBlockMixin": {
+        "getOutlineShape": "Lnet/minecraft/class_2199;method_9530(Lnet/minecraft/class_2680;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;Lnet/minecraft/class_3726;)Lnet/minecraft/class_265;"
+      },
+      "me/bedtrap/addon/mixins/HeldItemRenderMixin": {
+        "Lnet/minecraft/client/render/item/HeldItemRenderer;renderItem(Lnet/minecraft/entity/LivingEntity;Lnet/minecraft/item/ItemStack;Lnet/minecraft/client/render/model/json/ModelTransformationMode;ZLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;I)V": "Lnet/minecraft/class_759;method_3233(Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;Lnet/minecraft/class_811;ZLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V",
+        "renderFirstPersonItem": "Lnet/minecraft/class_759;method_3228(Lnet/minecraft/class_742;FFLnet/minecraft/class_1268;FLnet/minecraft/class_1799;FLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V",
+        "updateHeldItems": "Lnet/minecraft/class_759;method_3220()V"
+      },
+      "me/bedtrap/addon/mixins/MinecraftClientMixin": {
+        "Lnet/minecraft/client/network/ClientPlayerEntity;isUsingItem()Z": "Lnet/minecraft/class_746;method_6115()Z",
+        "Lnet/minecraft/client/network/ClientPlayerInteractionManager;isBreakingBlock()Z": "Lnet/minecraft/class_636;method_2923()Z",
+        "doItemUse": "Lnet/minecraft/class_310;method_1583()V",
+        "handleBlockBreaking": "Lnet/minecraft/class_310;method_1590(Z)V"
+      },
+      "me/bedtrap/addon/mixins/PlayerEntityMixin": {
+        "getMovementSpeed": "Lnet/minecraft/class_1657;method_6029()F"
+      }
+    }
+  }
+}

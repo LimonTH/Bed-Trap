@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "me.bedtrap.addon.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "AnvilBlockMixin",
+    "ChatUtilsMixin",
+    "HeldItemRenderMixin",
+    "MinecraftClientMixin",
+    "PlayerEntityMixin",
+    "ToggleMixin"
+  ]
+}

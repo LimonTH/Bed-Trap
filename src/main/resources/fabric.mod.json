@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "bedtrap",
+  "version": "${version}",
+  "name": "BedTrap",
+  "description": "BedTrap? Nice addon. :)",
+  "authors": ["Limon_TH"],
+  "icon": "assets/bedtrap/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "me.bedtrap.addon.BedTrap"
+    ]
+  },
+  "mixins": [
+    "bedtrap.mixins.json"
+  ],
+  "accessWidener": "bed-trap.accesswidener",
+  "custom": {
+    "meteor-client:color": "225, 0, 0"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "${minecraft_version}",
+    "fabricloader": ">=${loader_version}",
+    "meteor-client": "*"
+  }
+}
